@@ -32,23 +32,72 @@ body {
     width: 22rem;
 }
 .logo{
-    height: 100px;
-    margin-left: 25%;
+    height: 7rem;
 }
 
 .profile{
-    height: 70px;
+    height: 120px;
+    display: flex;
+    align-items: center;
     border-radius: 100px;
-    margin-left: 21%;
+    overflow: hidden;
 }
 
-.instagram-login{
-    margin-left: 4%;
+.botaologin{
+    display: flex; 
+    border-radius: 5%;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    margin-top: 35px;
+    width: 50%;
+    background-color: #0095f6;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px;
 }
 
 .group{
-    border: solid 2px #BAC0C4;
-    border-radius: 3px;
-    margin-top: 5%;
-    width:110% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 200%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.botaologout{
+    color:#799CBA; 
+    display: flex; 
+    border-radius: 4px;
+    padding: 8px;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 50%;
+    min-height: 3.4rem;
+    color:#0095f6;
+}
+
+.instagram-login{
+    margin: 4%;
+}
+
+.group:nth-child(1){
+    min-height: 19rem;
+}
+
+.group:nth-child(2){
+    margin-top: 30px;
+}
+
+.notyou{
+    color: rgb(160,160,160);
+}
+
+.link-blue{
+    color: #0095f6;
 }
